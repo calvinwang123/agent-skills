@@ -11,4 +11,6 @@ For the Caveman and Unslop pair:
 - In a mixed reply, use Caveman for the surrounding conversation and normal prose with Unslop for the shared text. Resume Caveman afterward.
 - Preserve facts, conditions, uncertainty, negation, code, and technical terms. Use full prose whenever compression would obscure meaning. Follow an explicit user style request over these defaults.
 
+Use `caveman-commit` by default whenever a user asks for a commit message or a commit is being prepared. It generates the message only; the agent still reviews the diff and runs Git commands separately.
+
 Use the target harness's own instruction file and skill paths. Do not assume this repository's `AGENTS.md` will be read automatically after the repository is copied elsewhere; install or reference the routing instructions in the target harness. Verify with one ordinary chat request and one request to draft shared documentation.
