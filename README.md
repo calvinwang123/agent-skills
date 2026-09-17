@@ -4,6 +4,7 @@ Two skills for agent communication:
 
 - [Caveman](skills/caveman/SKILL.md): terse conversation by default.
 - [Unslop](skills/unslop/SKILL.md): clear, complete prose for writing other people will read.
+- [Harness skill backup](skills/harness-skill-backup/SKILL.md): allowlisted skill sync across coding-agent harnesses.
 
 The root [AGENTS.md](AGENTS.md) defines when to use each skill. After importing the skills into another harness, put its routing rules in that harness's persistent instructions. A skill folder alone may not establish an always-on default.
 

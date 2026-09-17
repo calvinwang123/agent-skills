@@ -1,0 +1,4 @@
+interface:
+  display_name: "Harness Skill Backup"
+  short_description: "Sync skills across coding-agent harnesses"
+  default_prompt: "Use $harness-skill-backup to install and safely sync skill bundles across harnesses."
